@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8881A3A1CD53DAB0005CE62 /* AlertFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8881A391CD53DAB0005CE62 /* AlertFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8881A411CD53DAB0005CE62 /* AlertFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8881A371CD53DAB0005CE62 /* AlertFramework.framework */; };
+		D8881A481CD53DAB0005CE62 /* AlertFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8881A471CD53DAB0005CE62 /* AlertFrameworkTests.swift */; };
+		D8881A4C1CD53DAB0005CE62 /* AlertFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8881A371CD53DAB0005CE62 /* AlertFramework.framework */; };
+		D8881A4D1CD53DAB0005CE62 /* AlertFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8881A371CD53DAB0005CE62 /* AlertFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8881A551CD53DB60005CE62 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F471EE1AE8560700C461B7 /* Alert.m */; };
+		D8881A561CD53DC00005CE62 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F471ED1AE8560700C461B7 /* Alert.h */; };
 		E8F471CA1AE855EA00C461B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F471C91AE855EA00C461B7 /* main.m */; };
 		E8F471CD1AE855EA00C461B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F471CC1AE855EA00C461B7 /* AppDelegate.m */; };
 		E8F471D01AE855EA00C461B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F471CF1AE855EA00C461B7 /* ViewController.m */; };
@@ -18,6 +25,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D8881A421CD53DAB0005CE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F471BC1AE855EA00C461B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8881A361CD53DAB0005CE62;
+			remoteInfo = AlertFramework;
+		};
+		D8881A441CD53DAB0005CE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F471BC1AE855EA00C461B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F471C31AE855EA00C461B7;
+			remoteInfo = AlertDemo;
+		};
+		D8881A4A1CD53DAB0005CE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F471BC1AE855EA00C461B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8881A361CD53DAB0005CE62;
+			remoteInfo = AlertFramework;
+		};
 		E8F471DE1AE855EA00C461B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8F471BC1AE855EA00C461B7 /* Project object */;
@@ -27,7 +55,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D8881A531CD53DAB0005CE62 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8881A4D1CD53DAB0005CE62 /* AlertFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D8881A371CD53DAB0005CE62 /* AlertFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8881A391CD53DAB0005CE62 /* AlertFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertFramework.h; sourceTree = "<group>"; };
+		D8881A3B1CD53DAB0005CE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8881A401CD53DAB0005CE62 /* AlertFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8881A471CD53DAB0005CE62 /* AlertFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFrameworkTests.swift; sourceTree = "<group>"; };
+		D8881A491CD53DAB0005CE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F471C41AE855EA00C461B7 /* AlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F471C81AE855EA00C461B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F471C91AE855EA00C461B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,10 +94,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D8881A331CD53DAB0005CE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8881A3D1CD53DAB0005CE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8881A411CD53DAB0005CE62 /* AlertFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F471C11AE855EA00C461B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8881A4C1CD53DAB0005CE62 /* AlertFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,11 +127,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8881A381CD53DAB0005CE62 /* AlertFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D8881A391CD53DAB0005CE62 /* AlertFramework.h */,
+				D8881A3B1CD53DAB0005CE62 /* Info.plist */,
+			);
+			path = AlertFramework;
+			sourceTree = "<group>";
+		};
+		D8881A461CD53DAB0005CE62 /* AlertFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8881A471CD53DAB0005CE62 /* AlertFrameworkTests.swift */,
+				D8881A491CD53DAB0005CE62 /* Info.plist */,
+			);
+			path = AlertFrameworkTests;
+			sourceTree = "<group>";
+		};
 		E8F471BB1AE855EA00C461B7 = {
 			isa = PBXGroup;
 			children = (
 				E8F471C61AE855EA00C461B7 /* AlertDemo */,
 				E8F471E01AE855EA00C461B7 /* AlertDemoTests */,
+				D8881A381CD53DAB0005CE62 /* AlertFramework */,
+				D8881A461CD53DAB0005CE62 /* AlertFrameworkTests */,
 				E8F471C51AE855EA00C461B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +161,8 @@
 			children = (
 				E8F471C41AE855EA00C461B7 /* AlertDemo.app */,
 				E8F471DD1AE855EA00C461B7 /* AlertDemoTests.xctest */,
+				D8881A371CD53DAB0005CE62 /* AlertFramework.framework */,
+				D8881A401CD53DAB0005CE62 /* AlertFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +220,56 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D8881A341CD53DAB0005CE62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8881A3A1CD53DAB0005CE62 /* AlertFramework.h in Headers */,
+				D8881A561CD53DC00005CE62 /* Alert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		D8881A361CD53DAB0005CE62 /* AlertFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8881A521CD53DAB0005CE62 /* Build configuration list for PBXNativeTarget "AlertFramework" */;
+			buildPhases = (
+				D8881A321CD53DAB0005CE62 /* Sources */,
+				D8881A331CD53DAB0005CE62 /* Frameworks */,
+				D8881A341CD53DAB0005CE62 /* Headers */,
+				D8881A351CD53DAB0005CE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertFramework;
+			productName = AlertFramework;
+			productReference = D8881A371CD53DAB0005CE62 /* AlertFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8881A3F1CD53DAB0005CE62 /* AlertFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8881A541CD53DAB0005CE62 /* Build configuration list for PBXNativeTarget "AlertFrameworkTests" */;
+			buildPhases = (
+				D8881A3C1CD53DAB0005CE62 /* Sources */,
+				D8881A3D1CD53DAB0005CE62 /* Frameworks */,
+				D8881A3E1CD53DAB0005CE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8881A431CD53DAB0005CE62 /* PBXTargetDependency */,
+				D8881A451CD53DAB0005CE62 /* PBXTargetDependency */,
+			);
+			name = AlertFrameworkTests;
+			productName = AlertFrameworkTests;
+			productReference = D8881A401CD53DAB0005CE62 /* AlertFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E8F471C31AE855EA00C461B7 /* AlertDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8F471E71AE855EA00C461B7 /* Build configuration list for PBXNativeTarget "AlertDemo" */;
@@ -142,10 +277,12 @@
 				E8F471C01AE855EA00C461B7 /* Sources */,
 				E8F471C11AE855EA00C461B7 /* Frameworks */,
 				E8F471C21AE855EA00C461B7 /* Resources */,
+				D8881A531CD53DAB0005CE62 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D8881A4B1CD53DAB0005CE62 /* PBXTargetDependency */,
 			);
 			name = AlertDemo;
 			productName = AlertDemo;
@@ -176,9 +313,17 @@
 		E8F471BC1AE855EA00C461B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Mark Miscavage";
 				TargetAttributes = {
+					D8881A361CD53DAB0005CE62 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D8881A3F1CD53DAB0005CE62 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E8F471C31AE855EA00C461B7;
+					};
 					E8F471C31AE855EA00C461B7 = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -203,11 +348,27 @@
 			targets = (
 				E8F471C31AE855EA00C461B7 /* AlertDemo */,
 				E8F471DC1AE855EA00C461B7 /* AlertDemoTests */,
+				D8881A361CD53DAB0005CE62 /* AlertFramework */,
+				D8881A3F1CD53DAB0005CE62 /* AlertFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D8881A351CD53DAB0005CE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8881A3E1CD53DAB0005CE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F471C21AE855EA00C461B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +389,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D8881A321CD53DAB0005CE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8881A551CD53DB60005CE62 /* Alert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8881A3C1CD53DAB0005CE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8881A481CD53DAB0005CE62 /* AlertFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F471C01AE855EA00C461B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +427,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D8881A431CD53DAB0005CE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8881A361CD53DAB0005CE62 /* AlertFramework */;
+			targetProxy = D8881A421CD53DAB0005CE62 /* PBXContainerItemProxy */;
+		};
+		D8881A451CD53DAB0005CE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F471C31AE855EA00C461B7 /* AlertDemo */;
+			targetProxy = D8881A441CD53DAB0005CE62 /* PBXContainerItemProxy */;
+		};
+		D8881A4B1CD53DAB0005CE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8881A361CD53DAB0005CE62 /* AlertFramework */;
+			targetProxy = D8881A4A1CD53DAB0005CE62 /* PBXContainerItemProxy */;
+		};
 		E8F471DF1AE855EA00C461B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E8F471C31AE855EA00C461B7 /* AlertDemo */;
@@ -277,6 +469,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D8881A4E1CD53DAB0005CE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = AlertFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.AlertFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8881A4F1CD53DAB0005CE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.AlertFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8881A501CD53DAB0005CE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = AlertFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.AlertFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertDemo.app/AlertDemo";
+			};
+			name = Debug;
+		};
+		D8881A511CD53DAB0005CE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = AlertFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.AlertFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertDemo.app/AlertDemo";
+			};
+			name = Release;
+		};
 		E8F471E51AE855EA00C461B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,6 +682,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D8881A521CD53DAB0005CE62 /* Build configuration list for PBXNativeTarget "AlertFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8881A4E1CD53DAB0005CE62 /* Debug */,
+				D8881A4F1CD53DAB0005CE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8881A541CD53DAB0005CE62 /* Build configuration list for PBXNativeTarget "AlertFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8881A501CD53DAB0005CE62 /* Debug */,
+				D8881A511CD53DAB0005CE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E8F471BF1AE855EA00C461B7 /* Build configuration list for PBXProject "AlertDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
